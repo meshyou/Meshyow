@@ -1,0 +1,49 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Your Crush</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hey, want to go out with me?</h1>
+    <p>Click the button below to answer!</p>
+
+    <a class="btn" href="https://i.pinimg.com/564x/e5/55/40/e555402af290cd801befb31f56adfa79.jpg">Yes</a>
+    <a class="btn" href="https://www.youtube.com/watch?v=2nuDZtSYPOA">No</a>
+
+    <script>
+        // You can modify this part to dynamically generate shareable links
+        const yesLink = "kyut.jfif";
+        const noLink = "https://www.youtube.com/watch?v=2nuDZtSYPOA";
+
+        // For example, change the text based on the link clicked
+        document.querySelector('.btn').addEventListener('click', function() {
+            window.location.href = yesLink;
+        });
+    </script>
+</body>
+</html>
